@@ -1,18 +1,16 @@
-/* General Reset */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
 }
 
-/* Navbar Styling */
 .navbar {
     padding: 0.75rem !important;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
-    font-size: 1.5rem !important;  /* Increased size for the brand text */
+    font-size: 1.5rem !important;  
     color: #fff;
     text-decoration: none;
     margin-top: -5px;
@@ -25,7 +23,7 @@ body {
 }
 
 .nav-link {
-    font-size: 1.25rem !important; /* Increased size for nav links */
+    font-size: 1.25rem !important; 
     color: #ddd;
     text-decoration: none;
     transition: color 0.3s;
@@ -74,7 +72,7 @@ p {
     }
 
     .optimus-img:hover {
-        transform: scale(1.2); /* Zooms the image by 10% */
+        transform: scale(1.2); 
     }
 }
 
@@ -102,13 +100,14 @@ p {
     }
 
     .optimus-img:hover {
-        transform: scale(1.2); /* Zooms the image by 10% */
+        transform: scale(1.2);
     }
 }
 
 .robot-states {
     display: flex !important;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     justify-content: center;
 }
 
@@ -117,7 +116,7 @@ p {
 }
 
 .tesla-robot-img:hover {
-    transform: scale(1.2); /* Zooms the image by 10% */
+    transform: scale(1.1); 
 }
 
 .design-features-info {
@@ -138,12 +137,11 @@ p {
     display: flex !important;
 }
 
-/* Slideshow container */
 .automatic-slideshow {
     position: relative;
-    max-width: 600px !important; /* Adjust this value to your preference */
+    max-width: 600px !important; 
     min-width: 600px !important;
-    max-height: 350px !important; /* Adjust this value to fit your images properly */
+    max-height: 350px !important; 
     min-height: 350px !important;
     overflow: hidden;
     margin: auto;
@@ -151,44 +149,41 @@ p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Style for each slide */
 .slide {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;  /* Ensure the image fills the container width */
-    height: 100%;  /* Ensure the image fills the container height */
-    object-fit: cover;  /* Ensures the image covers the container without distortion */
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
     justify-content: center;
     background-color: orange;
 }
 
-/* Make the current slide visible */
 .slide.active {
     display: flex !important;
-    opacity: 1 !important;  /* Make the current slide visible */
+    opacity: 1 !important;
 }
 
-/* Manual slideshow */
 .manual-slideshow {
     border-radius: 10px;
-    width: 350px;    /* Ширина на карусела */
-    margin: 0 auto;      /* Центрираме карусела в родителския контейнер */
-    overflow: hidden;    /* Скриваме всичко, което излиза извън контейнера */
-    height: 500px;       /* Увеличаваме височината на карусела */
-    display: flex;       /* Използваме flexbox за центриране */
-    justify-content: center; /* Центрираме по хоризонтала */
-    align-items: center; /* Центрираме по вертикала */
+    width: 350px;    
+    margin: 0 auto;  
+    overflow: hidden;
+    height: 500px;   
+    display: flex;   
+    justify-content: center;
+    align-items: center; 
     position: relative;
 }
 
 .manualSlides {
     object-fit: fill;
-    width: 100%;         /* Изображението ще запълва целия контейнер по ширина */
-    height: 100%;        /* Изображението ще запълва целия контейнер по височина */
+    width: 100%; 
+    height: 100%;
 }
 
 .arrow-button {
@@ -232,7 +227,6 @@ p {
     -ms-transform:translate(0%,-50%);
 }
 
-/* Footer Styling */
 .footer {
     background-color: rgb(33, 37, 41);
     color: #ddd;
@@ -242,9 +236,6 @@ p {
     justify-content: center;
 }
 
-/* Responsive Design */
-
-/* General reset for images */
 img {
     max-width: 100%;
     height: auto;
